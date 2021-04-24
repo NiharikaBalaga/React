@@ -1,9 +1,10 @@
 // import logo from "./logo.svg";
 import "./App.css";
 import Myname from "./components/Wish"
+
 import Greet from "./components/Greet";
 import Hello from "./components/HelloJSX"
-// import Welcome from "./components/Welcome";
+import Welcome from "./components/Welcome";
 // import Message from "./components/Message";
 // import Counter from "./components/Counter";
 // import FunctionClick from "./components/FunctionClick";
@@ -21,9 +22,14 @@ import "polyfill-array-includes";
 function App() {
   return (
     <div className="App">
-      <Myname/>
-      {/* <Greet/> */}
-      <Hello/>
+      {/* <Myname/> */}
+      <Greet name='Bruce'heroname='Batman'>
+        <button>click</button>
+      </Greet>
+      <Greet name='Clark'heroname='Superman'><p>hi i am superhero</p></Greet>
+      <Greet name='Diana'heroname='Wonder Women'/>
+      <Welcome name='Bruce'heroname='Batman'/>
+      {/* <Hello/> */}
       {/* <Form /> */}
       {/* <Inline /> */}
       {/* <StyleSheet primary={true} /> */}
