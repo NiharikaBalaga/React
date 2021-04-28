@@ -14,7 +14,7 @@ increment(){
     this.setState({
         count: this.state.count+ 1
     },
-    ()=>{ console.log(this.state.count)})
+    ()=>{ console.log('callback value '+this.state.count)})       //to make console log value equal to count
 
     //  console.log(this.state.count)
    

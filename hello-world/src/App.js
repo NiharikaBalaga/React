@@ -5,7 +5,7 @@ import Myname from "./components/Wish"
 import Greet from "./components/Greet";
 import Hello from "./components/HelloJSX"
 import Welcome from "./components/Welcome";
-// import Message from "./components/Message";
+import Message from "./components/Message";
 // import Counter from "./components/Counter";
 // import FunctionClick from "./components/FunctionClick";
 // import Classclick from "./components/Classclick";
@@ -23,12 +23,13 @@ function App() {
   return (
     <div className="App">
       {/* <Myname/> */}
-      <Greet name='Bruce'heroname='Batman'>
+      {/* <Greet name='Bruce'heroname='Batman'>
         <button>click</button>
       </Greet>
       <Greet name='Clark'heroname='Superman'><p>hi i am superhero</p></Greet>
       <Greet name='Diana'heroname='Wonder Women'/>
-      <Welcome name='Bruce'heroname='Batman'/>
+      <Welcome name='Bruce'heroname='Batman'/> */}
+       <Message/>
       {/* <Hello/> */}
       {/* <Form /> */}
       {/* <Inline /> */}
@@ -38,17 +39,9 @@ function App() {
       {/* <ParentComponent/> */}
       {/* <EventBinding/> */}
       {/* <Counter/>
-    <FunctionClick/>
-    <Classclick/> */}
-      {/* <Message/> */}
-
-      {/* <Greet name="Bruce" heroname="Batman">
-        <button>Download</button>
-      </Greet>
-      <Greet name="Clark" heroname="Superman"></Greet>
-      <Greet name="Diana" heroname="WonderWomen"></Greet>
-      <Welcome name="Dia" heroname="Women"></Welcome> */}
-    </div>
+      <FunctionClick/>
+      <Classclick/> */}
+          </div>
   );
 }
 
