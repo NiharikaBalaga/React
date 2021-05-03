@@ -37,8 +37,7 @@ export class EmployeeSalary extends Component {
         </p>
         <p>
             <label>
-                Updated Total Salary: <b>{this.state.updateSalary}</b>
-            </label>
+                Updated Total Salary: <b>{this.state.updateSalary}</b></label>
         </p>
         <Salary
           BasicSalary={this.props.BasicSalary}

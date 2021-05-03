@@ -7,10 +7,10 @@ import Hello from "./components/HelloJSX"
 import Welcome from "./components/Welcome";
 import Message from "./components/Message";
 // import Counter from "./components/Counter";
-// import FunctionClick from "./components/FunctionClick";
-// import Classclick from "./components/Classclick";
-// import EventBinding from "./components/EventBinding";
-// import ParentComponent from "./components/ParentComponent";
+import FunctionClick from "./components/FunctionClick";
+import Classclick from "./components/Classclick";
+import EventBinding from "./components/EventBinding";
+import ParentComponent from "./components/ParentComponent";
 // import UserGreet from "./components/UserGreet";
 // import NameList from "./components/NameList";
 // import StyleSheet from "./components/Stylesheet";
@@ -28,8 +28,8 @@ function App() {
       </Greet>
       <Greet name='Clark'heroname='Superman'><p>hi i am superhero</p></Greet>
       <Greet name='Diana'heroname='Wonder Women'/>
-      <Welcome name='Bruce'heroname='Batman'/> */}
-       <Message/>
+      // <Welcome name='Bruce'heroname='Batman'/> */}
+       {/* <Message/> */}
       {/* <Hello/> */}
       {/* <Form /> */}
       {/* <Inline /> */}
@@ -37,9 +37,9 @@ function App() {
 
       {/* <UserGreet/> */}
       {/* <ParentComponent/> */}
-      {/* <EventBinding/> */}
-      {/* <Counter/>
-      <FunctionClick/>
+      <EventBinding/>
+      {/* <Counter/> */}
+      {/* <FunctionClick/>
       <Classclick/> */}
           </div>
   );
