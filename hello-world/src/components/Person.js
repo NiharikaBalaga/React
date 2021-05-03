@@ -1,11 +1,9 @@
 import React from "react";
 
-function Person({ person }) {
+function Person({ son }) {
   return (
     <div>
-      <h2>
-        I am {person.name},my age is {person.age}.I am good at {person.skill}
-      </h2>
+      <h2>I am {son.name},my age is {son.age}.I am good at {son.skill}</h2>
     </div>
   );
 }

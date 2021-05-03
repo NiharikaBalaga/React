@@ -11,13 +11,15 @@ import FunctionClick from "./components/FunctionClick";
 import Classclick from "./components/Classclick";
 import EventBinding from "./components/EventBinding";
 import ParentComponent from "./components/ParentComponent";
-// import UserGreet from "./components/UserGreet";
-// import NameList from "./components/NameList";
+import UserGreet from "./components/UserGreet";
+import NameList from "./components/NameList";
+import ListRendering from "./components/ListRendering"
 // import StyleSheet from "./components/Stylesheet";
 // import Inline from "./components/Inline";
 // import Form from "./components/Form";
 import "@pnp/polyfill-ie11";
 import "polyfill-array-includes";
+
 
 function App() {
   return (
@@ -34,10 +36,11 @@ function App() {
       {/* <Form /> */}
       {/* <Inline /> */}
       {/* <StyleSheet primary={true} /> */}
-
-      {/* <UserGreet/> */}
-      {/* <ParentComponent/> */}
-      <EventBinding/>
+      <NameList/>
+      <ListRendering/>
+      {/* <UserGreet/>
+      <ParentComponent/> */}
+      {/* <EventBinding/> */}
       {/* <Counter/> */}
       {/* <FunctionClick/>
       <Classclick/> */}
