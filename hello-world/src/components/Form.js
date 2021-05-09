@@ -36,6 +36,7 @@ class Form extends Component {
   };
 
   render() {
+    // const{username,comment,topic}=this.state;
     return (
       <form onSubmit={this.handlerSubmit}>
         <div>

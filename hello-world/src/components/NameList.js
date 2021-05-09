@@ -8,7 +8,7 @@ function NameList() {
     { id: 3, name: "Diana", age: 21, skill: "Angular" },
   ];
   const personList = persons.map((person) => (
-    <Person Key={person.id} son={person}></Person>
+    <Person key={person.id} son={person}></Person>
   ));
   return <div>{personList}</div>;
 }

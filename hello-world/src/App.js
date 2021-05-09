@@ -16,7 +16,8 @@ import NameList from "./components/NameList";
 import ListRendering from "./components/ListRendering"
 // import StyleSheet from "./components/Stylesheet";
 // import Inline from "./components/Inline";
-// import Form from "./components/Form";
+import LifeCycleA from "./components/LifeCycleA"
+import Form from "./components/Form";
 import "@pnp/polyfill-ie11";
 import "polyfill-array-includes";
 
@@ -36,14 +37,17 @@ function App() {
       {/* <Form /> */}
       {/* <Inline /> */}
       {/* <StyleSheet primary={true} /> */}
-      <NameList/>
-      <ListRendering/>
-      {/* <UserGreet/>
-      <ParentComponent/> */}
+       {/* <NameList/> */}
+      {/* <ListRendering/> */}
+      {/* <UserGreet/>  */}
+
+      {/* <ParentComponent/> */}
+
       {/* <EventBinding/> */}
       {/* <Counter/> */}
       {/* <FunctionClick/>
       <Classclick/> */}
+      <LifeCycleA/>
           </div>
   );
 }
