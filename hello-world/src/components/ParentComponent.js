@@ -26,7 +26,7 @@ greetHandler=()=>{
     render() {
         return (
             <div>
-                <h1>{this.state.ParentName}</h1>
+                {/* <h1>{this.state.ParentName}</h1> */}
                <button onClick ={this.greetHandler}>Greet Parent</button>
                 {/* <ChildComponent greetHandler ={this.greetParent}/> */}
             </div>

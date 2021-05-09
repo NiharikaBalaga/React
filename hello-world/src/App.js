@@ -1,26 +1,28 @@
 // import logo from "./logo.svg";
 import "./App.css";
-import Myname from "./components/Wish"
-
-import Greet from "./components/Greet";
-import Hello from "./components/HelloJSX"
-import Welcome from "./components/Welcome";
-import Message from "./components/Message";
+// import Myname from "./components/Wish"
+// import Greet from "./components/Greet";
+// import Hello from "./components/HelloJSX"
+// import Welcome from "./components/Welcome";
+// import Message from "./components/Message";
 // import Counter from "./components/Counter";
-import FunctionClick from "./components/FunctionClick";
-import Classclick from "./components/Classclick";
-import EventBinding from "./components/EventBinding";
+// import FunctionClick from "./components/FunctionClick";
+// import Classclick from "./components/Classclick";
+// import EventBinding from "./components/EventBinding";
 import ParentComponent from "./components/ParentComponent";
-import UserGreet from "./components/UserGreet";
-import NameList from "./components/NameList";
-import ListRendering from "./components/ListRendering"
-// import StyleSheet from "./components/Stylesheet";
+// import UserGreet from "./components/UserGreet";
+// import NameList from "./components/NameList";
+// import ListRendering from "./components/ListRendering"
+import StyleSheet from "./components/Stylesheet";
 // import Inline from "./components/Inline";
+// import Form from "./components/Form";
+// import "@pnp/polyfill-ie11";
+// import "polyfill-array-includes";
 import LifeCycleA from "./components/LifeCycleA"
-import Form from "./components/Form";
-import "@pnp/polyfill-ie11";
-import "polyfill-array-includes";
-
+import './appStyles.css'
+import FragrametDemo from "./components/FragrametDemo"
+import Table from "./components/Table"
+import Parent from "./components/Parent"
 
 function App() {
   return (
@@ -36,18 +38,25 @@ function App() {
       {/* <Hello/> */}
       {/* <Form /> */}
       {/* <Inline /> */}
-      {/* <StyleSheet primary={true} /> */}
+      {/* <StyleSheet primary={false} /> */}
        {/* <NameList/> */}
       {/* <ListRendering/> */}
       {/* <UserGreet/>  */}
 
-      {/* <ParentComponent/> */}
+      <ParentComponent/>
 
       {/* <EventBinding/> */}
       {/* <Counter/> */}
       {/* <FunctionClick/>
       <Classclick/> */}
-      <LifeCycleA/>
+      
+      {/* <LifeCycleA/> */}
+      {/* <h1 className='error'>Error</h1> */}
+      {/* <FragrametDemo/> */}
+      {/* <Table/> */}
+      <Parent/>
+
+
           </div>
   );
 }
