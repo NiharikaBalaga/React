@@ -18,11 +18,16 @@ import StyleSheet from "./components/Stylesheet";
 // import Form from "./components/Form";
 // import "@pnp/polyfill-ie11";
 // import "polyfill-array-includes";
-import LifeCycleA from "./components/LifeCycleA"
-import './appStyles.css'
-import FragrametDemo from "./components/FragrametDemo"
-import Table from "./components/Table"
-import Parent from "./components/Parent"
+import LifeCycleA from "./components/LifeCycleA";
+import "./appStyles.css";
+import FragrametDemo from "./components/FragrametDemo";
+import Table from "./components/Table";
+import Parent from "./components/Parent";
+import PortalDemo from "./components/PortalDemo";
+import ClickCounter from "./components/ClickCounter";
+import HoverCounter from "./components/HoverCounter";
+import Hover from "./components/Hover";
+import Click from "./components/Click";
 
 function App() {
   return (
@@ -34,30 +39,34 @@ function App() {
       <Greet name='Clark'heroname='Superman'><p>hi i am superhero</p></Greet>
       <Greet name='Diana'heroname='Wonder Women'/>
       // <Welcome name='Bruce'heroname='Batman'/> */}
-       {/* <Message/> */}
+      {/* <Message/> */}
       {/* <Hello/> */}
       {/* <Form /> */}
       {/* <Inline /> */}
       {/* <StyleSheet primary={false} /> */}
-       {/* <NameList/> */}
+      {/* <NameList/> */}
       {/* <ListRendering/> */}
       {/* <UserGreet/>  */}
 
-      <ParentComponent/>
+      {/* <ParentComponent/> */}
 
       {/* <EventBinding/> */}
       {/* <Counter/> */}
       {/* <FunctionClick/>
       <Classclick/> */}
-      
+
       {/* <LifeCycleA/> */}
       {/* <h1 className='error'>Error</h1> */}
       {/* <FragrametDemo/> */}
       {/* <Table/> */}
-      <Parent/>
 
-
-          </div>
+      {/* <Parent/> */}
+      {/* <PortalDemo/> */}
+      {/* <Hover /> */}
+      {/* <Click /> */}
+      <ClickCounter />
+      <HoverCounter />
+    </div>
   );
 }
 
