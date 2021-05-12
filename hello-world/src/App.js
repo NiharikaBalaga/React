@@ -64,8 +64,8 @@ function App() {
       {/* <PortalDemo/> */}
       {/* <Hover /> */}
       {/* <Click /> */}
-      <ClickCounter />
-      <HoverCounter />
+      <ClickCounter name="neha"/>
+      <HoverCounter name="Prem"/>
     </div>
   );
 }
